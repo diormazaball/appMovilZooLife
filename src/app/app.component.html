@@ -1,0 +1,28 @@
+<ion-app>
+    <ion-menu contentId="main-content">
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>Menú</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content class="ion-padding">
+        <h5>Perfil</h5>
+        <h5>Trivia</h5>
+        <h5>Eventos</h5>
+        <h5>Mapa</h5>
+      </ion-content>
+  </ion-menu>
+  <div class="ion-page" id="main-content">
+  <ion-header>
+      <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <!--<ion-title>Menú</ion-title>-->
+      </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    <ion-router-outlet></ion-router-outlet>
+  </ion-content>
+  </div>
+  </ion-app>
